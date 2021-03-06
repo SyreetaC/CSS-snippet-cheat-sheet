@@ -3,29 +3,37 @@ body {
   /*border: 1px solid red; THIS CHECKS WHERE THE SECTIONS ARE*/
   margin: 0px;
   height: 100vh; /*This makes the background take up the whole window*/
-  color: antiquewhite; /*remove later*/
+  color: pink;
   line-height: 20px;
 }
 
 .header {
+  text-align: center
 }
 .title__header {
+  color: pink
 }
 
 .info {
+  padding: 10px;
+  color:rgb(245, 110, 245);
 }
 
 .info_title {
+  color:rgb(245, 110, 245)
 }
 
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 50px;
 }
 .card-item {
   border: 2px dashed white;
   text-align: justify;
-  position: relative;
+  position: relative;*/
+  margin: 20px
+  width: 300px
 }
 
 .card-item h2 {
@@ -33,7 +41,8 @@ body {
   border: 3px solid white;
   border-radius: 5px;
   margin: 0px;
-  color: pink;
+  color: rgb(146, 17, 38);
+  text-align: center;
   padding: 5px 10px;
   top: 0px;
   left: 50%;
@@ -42,11 +51,11 @@ body {
   background: rgb(24, 23, 23);
 }
 
-.code-container {
+.code-snippet {
+  border: 1px solid pink;
   border-radius: 10px;
-  border: mediumvioletred;
-  color: pink;
-  padding: 20px;
+  background-color:rgb(245, 110, 245);
+  padding-top: 20px
 }
 
 .info__card {
@@ -55,4 +64,13 @@ body {
 }
 
 .title__footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .card-item {width: 50%;}
+}
+
+@media screen and (max-width: 768px) {
+  .card-item {width: 100%;}
 }
