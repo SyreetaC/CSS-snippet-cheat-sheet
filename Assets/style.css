@@ -24,25 +24,34 @@ body {
 }
 .card-item {
   border: 2px dashed white;
-  padding: 10px
   text-align: justify;
   position: relative;
 }
 
 .card-item h2 {
   position: absolute;
-  border: 1px solid red;
+  border: 3px solid white;
+  border-radius: 5px;
   margin: 0px;
+  color: pink;
+  padding: 5px 10px;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background: rgb(24, 23, 23);
 }
 
-.code-snippet {
+.code-container {
+  border-radius: 10px;
   border: mediumvioletred;
-  color: chartreuse;
+  color: pink;
+  padding: 20px;
 }
 
 .info__card {
   color: rgb(245, 110, 245);
-  padding: 20px;
+  padding: 40px;
 }
 
 .title__footer {
