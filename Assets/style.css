@@ -18,8 +18,11 @@ body {
 }
 
 .cards-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 .card-item {
+  border: 1px solid green;
 }
 
 .title__footer {
