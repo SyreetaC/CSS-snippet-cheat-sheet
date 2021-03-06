@@ -28,6 +28,11 @@ body {
   text-align: justify;
 }
 
+.code-snippet {
+  border: mediumvioletred;
+  color: chartreuse;
+}
+
 .info__card {
   color: rgb(245, 110, 245);
 }
