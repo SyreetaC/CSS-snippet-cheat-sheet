@@ -4,6 +4,7 @@ body {
   margin: 0px;
   height: 100vh; /*This makes the background take up the whole window*/
   color: antiquewhite; /*remove later*/
+  line-height: 20px;
 }
 
 .header {
@@ -22,7 +23,13 @@ body {
   flex-wrap: wrap;
 }
 .card-item {
-  border: 1px solid green;
+  border: 2px dashed white;
+  padding: 10px;
+  text-align: justify;
+}
+
+.info__card {
+  color: rgb(245, 110, 245);
 }
 
 .title__footer {
