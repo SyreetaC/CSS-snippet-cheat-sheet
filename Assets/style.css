@@ -1,6 +1,6 @@
 body {
   background-color: rgb(24, 23, 23);
-  border: 1px solid red;
+  /*border: 1px solid red; THIS CHECKS WHERE THE SECTIONS ARE*/
   margin: 0px;
   height: 100vh; /*This makes the background take up the whole window*/
   color: antiquewhite; /*remove later*/
@@ -8,11 +8,14 @@ body {
 
 .header {
 }
-.main-title {
+.title__header {
 }
 
 .info {
 }
 
 .info_title {
+}
+
+.title__footer {
 }
